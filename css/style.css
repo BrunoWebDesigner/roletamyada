@@ -26,6 +26,7 @@ hr {
 }
 
 .mainbox1 {
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -60,12 +61,11 @@ hr {
 }
 
 .imgadd {
+  border-radius: 10px;
   max-width: 100%;
   display: block;
   margin: 0 auto;
   height: 100px;
-  background-image: url(https://rerollcdn.com/STARRAIL/Rarity/5_sm.png)!important;
-  background-image: url(https://rerollcdn.com/STARRAIL/Rarity/4_sm.png)!important;
 }
 
 .flex {
@@ -74,6 +74,7 @@ hr {
   flex-wrap: wrap;
   max-width: 700px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .flex > div {
@@ -114,8 +115,12 @@ hr {
 /* FOOTER */
 .footer-text {
   text-align: center;
+  padding-bottom: 20px;
 }
 
+.agradecimentos {
+  font-size: 14px;
+}
 
 /* GIRANDO A CARTA E REVELANDO A IMAGEM */
 .flip-container {
@@ -143,6 +148,7 @@ hr {
 }
 
 .front, .back {
+  height: 250px;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -156,4 +162,55 @@ hr {
 
 .back {
   transform: rotateY(180deg);
+}
+
+
+@media (max-width: 620px) {
+  
+  h1, h2, h3, h4 {
+    margin-top: 10px;
+  }
+   
+  .mainbox1 {
+    height: 200px;
+  }
+  
+  .textbox1 {
+    width: 350px;
+  }
+  
+  .card1 {
+    height: 200px;
+  }
+
+  .imgadd {
+    border-radius: 5px;
+    max-width: 100%;
+    height: 70px;
+  }
+  
+  .flex {
+    max-width: 400px;
+  }
+  
+  .flex > div {
+    flex: 1 1 60px;
+    margin: 2px;
+  }
+  
+  .flex > div > p {
+    flex: 1 1 60px;
+    margin: 2px;
+  }
+
+  p {
+    font-size: 13px;
+    padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 566px) {
+  hr {
+    margin-top: 32%;
+  }
 }
