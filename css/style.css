@@ -214,3 +214,43 @@ hr {
     margin-top: 32%;
   }
 }
+
+@media (max-width: 390px) {
+  h1, h2, h3, h4 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+   
+  .mainbox1 {
+    height: 250px;
+  }
+  
+  .card1 {
+    height: 170px;
+  }
+
+  .imgadd {
+    border-radius: 5px;
+    max-width: 100%;
+    height: 50px;
+  }
+  
+  .flex {
+    max-width: 500px;
+  }
+  
+  .flex > div {
+    flex: 1 1 40px;
+    margin: 1px;
+  }
+  
+  .flex > div > p {
+    flex: 1 1 40px;
+    margin: 1px;
+  }
+
+  p {
+    font-size: 11px;
+    padding-bottom: 2px;
+  }
+}
