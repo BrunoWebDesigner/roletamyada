@@ -58,9 +58,9 @@
       <label class="flip-container" for="switch" >
         <div class="flipper">
           <div class="front" onclick="aleatorio()">
-            <img src="img/carta.png" height="180px"/>
+            <img src="img/carta.png" class="card1" height="250px"/>
           </div>
-          <div id="cardbox" class="back">
+          <div class="back" id="cardbox">
             <img src="img/carta.png" class="card1"  height="180px">
           </div>
         </div>
@@ -73,20 +73,20 @@
   <div class="timenumbertext">
     <h4>PRIMEIRO TIME</h4>
   </div>
-  <div id="imgcase1" onclick="montarTime1()">
-    <img class="imgadd" src="img/case2.png" onclick="extra1()">
+  <div id="imgcase1" onclick="montarTime(1)">
+    <img id="fundoimg1" class="imgadd" src="img/case2.png" onclick="extra(1)">
   </div>
 
-  <div id="imgcase2" onclick="montarTime2()">
-    <img class="imgadd" src="img/case2.png" onclick="extra2()">
+  <div id="imgcase2" onclick="montarTime(2)">
+    <img id="fundoimg2" class="imgadd" src="img/case2.png" onclick="extra(2)">
   </div>
 
-  <div id="imgcase3" onclick="montarTime3()">
-    <img class="imgadd" src="img/case2.png" onclick="extra3()">
+  <div id="imgcase3" onclick="montarTime(3)">
+    <img id="fundoimg3" class="imgadd" src="img/case2.png" onclick="extra(3)">
   </div>
 
-  <div id="imgcase4" onclick="montarTime4()">
-    <img class="imgadd" src="img/case2.png" onclick="extra4()">
+  <div id="imgcase4" onclick="montarTime(4)">
+    <img id="fundoimg4" class="imgadd" src="img/case2.png" onclick="extra(4)">
   </div>
 </section>
 
@@ -106,20 +106,20 @@
   <div class="timenumbertext">
     <h4>SEGUNDO TIME</h4>
   </div>
-  <div id="imgcase5" onclick="montarTime5()">
-    <img class="imgadd" src="img/case2.png" onclick="extra5()">
+  <div id="imgcase5" onclick="montarTime(5)">
+    <img id="fundoimg5" class="imgadd" src="img/case2.png" onclick="extra(5)">
   </div>
 
-  <div id="imgcase6" onclick="montarTime6()">
-    <img class="imgadd" src="img/case2.png" onclick="extra6()">
+  <div id="imgcase6" onclick="montarTime(6)">
+    <img id="fundoimg6" class="imgadd" src="img/case2.png" onclick="extra(6)">
   </div>
 
-  <div id="imgcase7" onclick="montarTime7()">
-    <img class="imgadd" src="img/case2.png" onclick="extra7()">
+  <div id="imgcase7" onclick="montarTime(7)">
+    <img id="fundoimg7" class="imgadd" src="img/case2.png" onclick="extra(7)">
   </div>
 
-  <div id="imgcase8" onclick="montarTime8()">
-    <img class="imgadd" src="img/case2.png" onclick="extra8()">
+  <div id="imgcase8" onclick="montarTime(8)">
+    <img id="fundoimg8" class="imgadd" src="img/case2.png" onclick="extra(8)">
   </div>
 </section>
 
@@ -137,6 +137,7 @@
   <hr>
   <div class="footer-text">
     <p>&#169 feito por Bruno Peres</p>
+    <p class="agradecimentos">Apoio do JTequila</p>
   </div>
 </footer>
 
