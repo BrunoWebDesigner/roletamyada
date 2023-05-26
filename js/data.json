@@ -468,6 +468,20 @@
       "link2": "img/personagens1/Zhongli.png",
       "nome": "Zhongli",
       "raridade": "5"
+    },
+        {
+      "id": 67,
+      "link": "img/personagens2/Mya.png",
+      "link2": "img/personagens1/Mya.png",
+      "nome": "Mya",
+      "raridade": "5"
+    },
+    {
+      "id": 68,
+      "link": "img/personagens2/Mya.png",
+      "link2": "img/personagens1/Mya.png",
+      "nome": "Mya",
+      "raridade": "4"
     }
   ]
 }
