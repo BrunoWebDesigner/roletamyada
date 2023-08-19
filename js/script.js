@@ -44,11 +44,11 @@ async function extra(num){
   let data = await response.json();
 
   const img1 = [];
-  for (let j = 8; j <= 66; j++) {
+  for (let j = 9; j <= 68; j++) {
     img1.push(data.personagens[j]);
   }
   const img2 = [];
-  for (let i = 0; i <= 7; i++) {
+  for (let i = 0; i <= 8; i++) {
     img2.push(data.personagens[i]);
   }
   var teste = mudar;
